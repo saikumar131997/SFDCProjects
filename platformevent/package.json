@@ -1,0 +1,15 @@
+{
+  "name": "platformeventstreamingapi",
+  "version": "1.0.0",
+  "description": "This is a test project for platform event streaming api",
+  "main": "app.js",
+  "scripts": {
+    "test": "test app.js"
+  },
+  "author": "SaiKumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsforce": "^1.11.1"
+  }
+}
