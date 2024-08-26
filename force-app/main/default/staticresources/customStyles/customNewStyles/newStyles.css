@@ -1,0 +1,24 @@
+section-content.community_layout-section_section {
+    padding: 0px !important;
+}
+
+community_layout-section.comm-section-container.lwc-6j9an5vbrcd-host {
+    min-height: 0px !important;
+    padding: 0px !important;
+}
+
+c-portfolio-user-details lightning-output-field span.slds-form-element__label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+c-portfolio-user-details lightning-output-field a,
+c-portfolio-user-details lightning-output-field .slds-form-element__static {
+    font-size: 18px;
+    color: #f6c403;
+}
+
+ul.slds-tabs_scoped__nav {
+    background: #f6c403;
+}

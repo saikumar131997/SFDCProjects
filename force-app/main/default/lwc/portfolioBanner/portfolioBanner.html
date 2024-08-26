@@ -1,0 +1,45 @@
+<template>
+    <div class="banner"> 
+        <img src={userPic} class="profile-pic"/>
+        <div class="slds-grid slds-wrap">
+            <div class="slds-col slds-large-size_2-of-2" style="margin-bottom: 20px;">
+                <div class="name">Manusha</div>
+            </div>
+            <br>
+            <div class="slds-col slds-large-size_8-of-12 " style=" margin-right: -250px;margin-left: 102px; margin-top: 18px; ">
+                <div class="designation">Software engineer at XYZ Systems</div>
+                <div class="location">Hyderabad, India</div>
+            </div>
+            <div class="slds-col slds-large-size_4-of-12">
+                <lightning-map map-markers={mapMarkers} style="height: 120px;"> </lightning-map>
+            </div>
+        </div>
+       
+        <div> 
+            <a href={linkedinUrl} target="_blank">
+                <img src={linkedin} class="social-icon"/>
+            </a>
+
+            <a href={twitterUrl} target="_blank">
+                <img src={twitter} class="social-icon"/>
+            </a>
+
+            <a href={githubUrl} target="_blank">
+                <img src={github} class="social-icon"/>
+            </a>
+
+            <a href={youtubeUrl} target="_blank">
+                <img src={youtube} class="social-icon"/>
+            </a>
+
+            <a href={trailheadUrl} target="_blank">
+                <img src={trailhead} class="social-icon"/>
+            </a>
+
+            <a href={blogUrl} target="_blank">
+                <img src={blog} class="social-icon"/>
+            </a>
+           
+        </div>
+    </div>
+</template>
